@@ -48,7 +48,7 @@ function Categories() {
                 Left Sidebar
             </div>
             <div className='categories_list'>
-                {load?<div className='text-center'>Loading</div>:<div><img src='/closed_banner.jpg' alt='closed banner' className='full_img' />
+                {load?<div className='text-center'>Loading</div>:<div className='mid_class'><img src='/closed_banner.jpg' alt='closed banner' className='full_img' />
                 <h1 className='main_heading'><span>{category.category_name}</span></h1>
                 {/* {category.product?category.product.length:''} */}
                 {category.product?<Row>

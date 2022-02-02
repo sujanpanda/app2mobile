@@ -316,6 +316,19 @@
   display: block;
   font-size: 11px;
 }
+@media (min-width:767px) and (max-width:930px) {
+  .mid_class .row .col-6 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .left_sidebar {
+    display: none;
+  }
+  .categories_list {
+    padding-left: 20px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .cart_btn {
     display: none;
